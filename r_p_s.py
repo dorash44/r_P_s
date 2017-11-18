@@ -1,4 +1,4 @@
-import r_fan
+import rand
 count_you=0
 count_comp=0
 flag= 1
@@ -8,7 +8,7 @@ while flag==1:
     if item != "rock" and item != "paper" and item != "scissors":
         print("\noops something is wrong, try again\n")
         continue
-    ans = r_fan.rando(5)
+    ans = rand.rando(5)
     if ans == 0:
         comp_item= "rock"
         print("rock")
