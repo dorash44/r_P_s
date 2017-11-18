@@ -1,8 +1,11 @@
 import rand
-count_you=0
-count_comp=0
-flag= 1
-flag2=2
+
+
+count_you = 0
+count_comp = 0
+flag = 1
+flag2 = 2
+
 while flag==1:
     item = input("\nchoose: rock, paper or scissors? ")
     if item != "rock" and item != "paper" and item != "scissors":
